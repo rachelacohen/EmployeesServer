@@ -51,8 +51,10 @@ on:
 env:
   PROJECT_ID: employees-419623 # TODO: update Google Cloud project id
   GAR_LOCATION: us-centeral1 # TODO: update Artifact Registry location
-  SERVICE: YOUR_SERVICE_NAME # TODO: update Cloud Run service name
+  SERVICE: Employees # TODO: update Cloud Run service name
   REGION: us-centeral1 # TODO: update Cloud Run service region
+  REPO:  employee
+  IMAGE: server
 
 jobs:
   deploy:
